@@ -18,13 +18,18 @@
     "url": "https://github.com/kogsio/littletiers/issues"
   },
   "homepage": "https://github.com/kogsio/littletiers#readme",
-  "dependencies": {
+ "dependencies": {
+    "@heroku/buildpack-registry": "^1.0.1",
+    "async-file": "^2.0.2",
+    "cli-ux": "^5.6.3",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "faker": "^5.1.0",
+    "got": "^11.8.2",
     "heroku": "^7.2.0",
     "lodash": "^4.17.21",
-    "lowdb": "^1.0.0"
+    "lowdb": "^1.0.0",
+    "phoenix": "^1.6.0-rc.0"
   },
   "engines": {
     "node": "14.x"
