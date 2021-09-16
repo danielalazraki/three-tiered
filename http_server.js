@@ -7,7 +7,7 @@ const db = low(adapter);
 const cors = require('cors');
 
 // allow cross-origin resource sharing (CORS)
-app.use(cors());
+//app.use(cors());
 
 // data parser - used to parse post data
 var bodyParser = require('body-parser');
